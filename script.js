@@ -17,13 +17,13 @@ const btns = document.querySelectorAll('button'), // Метод querySelectorAll
 
 
 // Проверяем наличие класса
-/* btns[0].addEventListener('click', () => { */ // после клика проверяем наличие класса red, если его нету добавляем
-    /* if (!btns[1].classList.contains('red')) {
+btns[0].addEventListener('click', () => { // после клика проверяем наличие класса red, если его нету добавляем
+    if (!btns[1].classList.contains('red')) {
         btns[1].classList.add('red'); // добавляем класс
     } else {
         btns[1].classList.remove('red');
     }
-}); */
+}); 
 
 
 
